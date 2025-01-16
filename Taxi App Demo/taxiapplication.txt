@@ -1,0 +1,25 @@
+Problem Statement
+
+there are n number of taxis for simplicity assume2 but it should work for any number of taxi
+
+six points
+a b c d e f
+problem constraints:
+
+1point to another point - 15km
+1point to another point - 1hr
+1st 5km charges - rupee 100 after 5km they charge 1 km = 10rupee
+
+condition
+all taxi start at A
+
+1.book taxi which is available at first
+2.If a person at point B and one taxi is at c and another taxi is at D.If B book taxi the nearest point available taxi will be booked.
+
+1.if a person is at Point A and there are two taxi at same point(D) if he want to book a ticket.The customer want to choose
+the taxi to book according to charges which is less they want to choose.
+
+1.the taxi driver charges only for starting point to destination point
+
+1.if a customer attempting to book a taxi but if there is no available of taxi so the result be displayed as Rejected.
+
